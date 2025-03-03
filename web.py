@@ -89,6 +89,8 @@ while True:
         if "message-out" in ultimo_mensaje.get_attribute("class"):
             print("el ultimo mensaje fue enviado por el bot")
 
+
+        #comprobar que el ultimo mensaje no se repita , aunque creo que se va a reemplazar por lo del bot
         if ultimo_mensaje_recibido==respuesta:
           print("La respuesta es la misma que la última enviada. No se reenvía.")
         else:
